@@ -3,28 +3,28 @@
 class Pw < Formula
   desc "CLI for the Popcorn Wave web application framework"
   homepage "https://github.com/shibukawa/popcornwave"
-  version "0.1.0"
+  version "1.0.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/shibukawa/popcornwave/releases/download/v0.1.0/pw_0.1.0_darwin_arm64.tar.gz"
-      sha256 "5068ff0aed42f159b2630b84303d9f9747762d603b886d5e4ed7fc6359fd4012"
+      url "https://github.com/shibukawa/popcornwave/releases/download/v1.0.0/pw_1.0.0_darwin_arm64.tar.gz"
+      sha256 "b8aa560faf0995ef9147237814ffc82a17e3d4c0f13911ecb6e45fb8456f4c4d"
     end
     on_intel do
-      url "https://github.com/shibukawa/popcornwave/releases/download/v0.1.0/pw_0.1.0_darwin_amd64.tar.gz"
-      sha256 "7bf5ad3c359c7a14d2a19ee2a40d8146bbb894be71ba2fe3267bc02358f3fca6"
+      url "https://github.com/shibukawa/popcornwave/releases/download/v1.0.0/pw_1.0.0_darwin_amd64.tar.gz"
+      sha256 "72df46fd8bc22043112155a3081eb1964f5eea2f5638ed19444217084ba88f3d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shibukawa/popcornwave/releases/download/v0.1.0/pw_0.1.0_linux_arm64.tar.gz"
-      sha256 "e9429a49d3c938981808a662886559605705d9f7bb673efb3fbbb0afb66df1ad"
+      url "https://github.com/shibukawa/popcornwave/releases/download/v1.0.0/pw_1.0.0_linux_arm64.tar.gz"
+      sha256 "5c93b2633767f3e9d3aedb904fcecc009db1bbfbd17731efc6e614cc3d2553cf"
     end
     on_intel do
-      url "https://github.com/shibukawa/popcornwave/releases/download/v0.1.0/pw_0.1.0_linux_amd64.tar.gz"
-      sha256 "55af7dd50869b85bae6b1f3cd328e7157a63d3d2ac2c58b955a4dbc4af84733e"
+      url "https://github.com/shibukawa/popcornwave/releases/download/v1.0.0/pw_1.0.0_linux_amd64.tar.gz"
+      sha256 "dca16e9b4b8e8573e60cbf9f4e412cdba6d5724e0e78a197f9061fd036bc047e"
     end
   end
 
