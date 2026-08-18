@@ -1,35 +1,35 @@
 # Rendered by .github/homebrew/render-formula.sh into shibukawa/homebrew-tap.
 # Edit this template, not the copy in the tap.
 class Pw < Formula
-  desc "CLI for the Popcorn Wave web application framework"
-  homepage "https://github.com/shibukawa/popcornwave"
-  version "1.0.0"
+  desc "CLI for the Popcorn Web web application framework"
+  homepage "https://github.com/shibukawa/popcornweb"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/shibukawa/popcornwave/releases/download/v1.0.0/pw_1.0.0_darwin_arm64.tar.gz"
-      sha256 "b8aa560faf0995ef9147237814ffc82a17e3d4c0f13911ecb6e45fb8456f4c4d"
+      url "https://github.com/shibukawa/popcornweb/releases/download/v0.5.0/pw_0.5.0_darwin_arm64.tar.gz"
+      sha256 "0f6668d363298d4bb2e0f4e426b1e0006db5d70bbbb920ee56cf5e537a8366ea"
     end
     on_intel do
-      url "https://github.com/shibukawa/popcornwave/releases/download/v1.0.0/pw_1.0.0_darwin_amd64.tar.gz"
-      sha256 "72df46fd8bc22043112155a3081eb1964f5eea2f5638ed19444217084ba88f3d"
+      url "https://github.com/shibukawa/popcornweb/releases/download/v0.5.0/pw_0.5.0_darwin_amd64.tar.gz"
+      sha256 "b15e4e76b81fbc5a27281ab1aee7207c897c5b44ac8f61674532ea5783178894"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shibukawa/popcornwave/releases/download/v1.0.0/pw_1.0.0_linux_arm64.tar.gz"
-      sha256 "5c93b2633767f3e9d3aedb904fcecc009db1bbfbd17731efc6e614cc3d2553cf"
+      url "https://github.com/shibukawa/popcornweb/releases/download/v0.5.0/pw_0.5.0_linux_arm64.tar.gz"
+      sha256 "358782484a28ff87e92d3929d42692d95232a98f2cc22ea1e9d0ba3aa60698d7"
     end
     on_intel do
-      url "https://github.com/shibukawa/popcornwave/releases/download/v1.0.0/pw_1.0.0_linux_amd64.tar.gz"
-      sha256 "dca16e9b4b8e8573e60cbf9f4e412cdba6d5724e0e78a197f9061fd036bc047e"
+      url "https://github.com/shibukawa/popcornweb/releases/download/v0.5.0/pw_0.5.0_linux_amd64.tar.gz"
+      sha256 "91a28b860f28585cc9bb8727396c58069e8a6216dd593bb545844e01e9a1950e"
     end
   end
 
   livecheck do
-    url "https://github.com/shibukawa/popcornwave.git"
+    url "https://github.com/shibukawa/popcornweb.git"
     strategy :git
     regex(/^v(\d+(?:\.\d+)+)$/i)
   end
